@@ -1,0 +1,52 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+
+h1 {
+    background-color:lightgray;
+    height: 300px;
+    width: 300px;
+    /*
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray;
+    */
+    border: 10px solid darkcyan;
+
+    /*
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    */
+    padding: 10px 10px 10px 10px;
+
+   /* margin: auto; /*Para centralizar*/            
+    /*margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;            
+    */
+    margin: 10px 10px 25px 10px;
+
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: blue;
+}
+
+a {
+    border-width: 10px;
+    border-style: groove;
+    border-color: red;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}

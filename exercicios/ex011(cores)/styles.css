@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*{	
+	font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+p{
+	text-align: justify;
+}
+
+body{
+	background-image: linear-gradient(90deg, #F2EBBF, #F3B562);
+}
+
+main{
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 5px 5px 15px #5C4B51;  
+	width: 500px;
+	padding: 10px;
+	margin: auto;
+}
+
+h1{	
+	color: #F06060;	
+	text-align: center;
+	text-shadow: 1px 1px 1px #5C4B51;
+}
+
+h2{
+	color: #8CBEB2;
+}
+
+/* Cores na pagina
+color: #5C4B51;
+color: #8CBEB2;
+color: #F2EBBF;
+color: #F3B562;
+color: #F06060;
+*/

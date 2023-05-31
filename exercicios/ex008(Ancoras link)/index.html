@@ -1,0 +1,42 @@
+<!Doctype Html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+		<title>Link e Ancoras</title>		
+	</head>
+	
+	<body>
+		<h1>Página 1 - Links e Âncoras</h1>
+		
+		<h2>Links Externos</h2>
+		<p><a href="https://www.nasa.gov/" target="_blank" hreflang="en" rel="external">Nasa: com a target _blank</a></p>
+		
+		<p><a href="https://www.nasa.gov/" hreflang="en" rel="external">Nasa: sem a target _blank</a></p>
+		<p>Nesse caso usado para acessar um site externo</p>
+		<!-- hreflang está dizendo qual o idioma do site que estou redirecionando 
+		&& rel="external" está dizendo para o mecanismo de pesquisa do navegador que este link leva a uma página fora deste site-->
+
+		<hr>
+		<p>Aviso Importante</p>		
+		<p>Percebe que quando o link é acessado a página do site é fechada<br>
+		Para evitar que o seu site simplesmente suma existe uma parametro que pode ser usado chamado &lt target=_blank &gt </p>
+		<p>Você pode acessar link da <a href="https://www.amazon.com.br" target="_blank" rel="external">Amazon</a> a partir desse parágrafo (com a tag target)<br>
+		
+		<hr>
+		<h2>Link Internos</h2>
+		<p>Página Dois: assunto Target</p>
+		<p>Ir para a pagina dois? <a href="paginaDois.html" rel="next">Sim</a></p>
+		<!-- rel="next" diz para o mecanismo de pesquisa do navegador que o link leva para proxima página do site -->
+		
+		<hr>		
+		<h1>Fazendo Download por link</h1>
+		
+		<ul>
+			<li><a href="arquivosDownload/conteudoCap10.pdf" download="arquivosDownload/conteudoCap10.pdf" type="application/pdf">Link para baixar o pdf<a></li>
+			<li><a href="arquivosDownload/conteudoCap10.zip" download="arquivosDownload/conteudoCap10.zip" type="application/zip">Link para baixar o arquivo compactado</a></li>
+		</ul><!-- Colocar o um # no href signif que é um link vazio -->
+		
+	</body>
+</html>

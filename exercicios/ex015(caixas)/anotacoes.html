@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anotações</title>
+    <link rel="stylesheet" href="anotacoesStyle.css">
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            color: rgb(60, 139, 84);
+            font-family: 'Courier New', Courier, monospace;
+        }       
+    </style>
+</head>
+
+<body>  
+    <h1>Modelos de Caixa HTML-CSS</h1> 
+
+    <h2>Box Model HTML5-CSS3 pesquisar </h2>
+
+    <p>
+        Quando se tem uma pagina html tudo oq é mostrado é com caixas<br>
+        Pode conter uma caixa dentro da outra, o termo para se referir é ANINHAMENTO<br>
+        Uma caixa contém um tamanho, width = largura | height = altura<br>
+        Uma caixa contém uma borda, em CSS chame de border<br>
+        Para impedir que a borda fique "colada" no conteudo, use o paddingm, o padding pode ser usado em uma direção ou em todas<br>
+        Pode usar o margin, para criar uma margem fora da caixa <br>
+    </p>
+    <hr>
+    <p>
+        RESUMO: <br>
+        width = largura <br>
+        height = altura <br>
+
+        border - cria uma borda na box <br>
+        padding - cria um espaçamento interno na box<br>
+        margin - cria um espaçamento externo na box <br>
+        outline - cria uma borda dentro do margin
+    </p>
+    <hr>
+
+    <h1>Tipos de Caixa</h1>
+    <h2>Box Level & Inline level diferença basica</h2>
+
+    <p>
+        Exemplo: Supomos que exista um texto que acaba no meio da tela <br>
+        Box-level será criado embaixo da texto e sempre ocupa totalmente a largura da tela (width)<br>
+        A largura do box Level é sempre 100% do viewport
+    </p>
+
+    <p>
+        Exemplo: Supomos que exista um texto que acaba no meio da tela <br>
+        Inline-level ao contrário do box level, a caixa será criada ao lado do texto<br>
+        no tamanho necessario para conter a informação
+    </p>
+
+    <h2>Exemplos de Tag Box-level e Inline-level</h2>
+    <ul>
+        <p>Box-level</p>
+        <li>Tag div</li>      
+        <li>Tag h1-h6</li>  
+        <li>Tag p</li>  
+        <li>Tag main</li>  
+        <li>Tag header</li>  
+        <li>Tag nav</li>  
+        <li>Tag article</li>  
+        <li>Tag aside</li>  
+        <li>Tag footer</li>  
+        <li>Tag form</li>  
+        <li>Tag video</li>   
+    </ul>
+    <br>
+    <ul>
+        <p>Inline-level</p>
+        <li>Tag Span</li>
+        <li>Tag a</li>
+        <li>Tag code</li>
+        <li>Tag samll</li>
+        <li>Tag em</li>
+        <li>Tags sup-sub</li>
+        <li>Tag label</li>
+        <li>Tag button</li>
+        <li>Tag input</li>
+        <li>Tag select</li>
+    </ul>
+    <hr>
+</body>
+
+</html>

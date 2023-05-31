@@ -1,0 +1,43 @@
+<!Doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+	<title>Pag. Dois</title>
+</head>
+	
+<body>
+	<h1>Pagina 2 - Target</h1>		
+	<p>Por padrao sempre que se abre um HyperLink, o site de destino abre na mesma janela, esse comportamento é usado 
+		quando o visitante continua no nosso site</p>	
+		
+	<p> O ideal é sempre que tiver um link que redireciona a página a outra página, que não pertence ao seu voce é usar os paramentros 
+		target="_blank" rel="external" para evitar que o seu site seja "perdido"</p> 
+		
+	<hr>
+	<h3>Tipos de Target</h3>
+	<p>_blank=""</p>
+		
+	<p>_blank vai abrir o link em outra janela em branco <br>
+		_self vai abrir o link na mesma janela (padrao) <br>
+		_top vai desfazer todos os frames/janelas e abrir o destino no navegador completo <br>
+		_parent similar ao uso _top em uma referencia a janela mãe <br>
+	<hr>
+		   
+	<p>
+		Testando a target: <a href="https://www.nasa.gov/" target="_self">Nasa _self</a> <br>
+		Testando a target: <a href="https://www.nasa.gov/" target="_blank">Nasa _blank</a> <br>
+		Testando a target: <a href="https://www.nasa.gov/" target="_top">Nasa _top</a> <br>
+		Testando a target: <a href="https://www.nasa.gov/" target="_parent">Nasa _parent</a> <br>	
+	</p>  
+	<p>Link que levam para outros arquivos dentro do site são chamados de link interno ou link local</p>
+	<p>Link que levam para outros sites são chamados de link externo.<br> Nesse caso devemos escrever a URL completa inclusive no começo https:// +Link</p>	   
+		   
+	<p>Estudar rel=""nofollow e dofollow"</p>
+		   
+	<p>Voltar a página anterior? <a href="index.html" rel="prev" target="_self">Sim</a></p>
+	<p>Ir para a página Tres: <a href="conteudo/paginaTres.html" rel="next" target="_self">Sim</a></p>
+	<!-- rel="prev" esta dizendo para o mecanismo do navegador que este link leva a página anterior-->
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;       
+        }
+        .links{
+            color: blue;
+            text-decoration: none;
+        }
+
+        /* Pseudo-classe em CSS  : */
+      
+        /*.links:visited {
+            color: red;
+        } */
+
+        .links:hover {
+            text-decoration: underline;
+            color: lightblue;
+        }
+
+        .links:active { /* active a cor do link quando se clicado*/
+            color: darkblue;
+        }
+
+        /* Pseudo-elemento em CSS ::*/
+
+        .links::before{
+            content: '→ '; /* Pesquisar como adicionar simbolos css por codigo*/
+        }
+
+        .links::after {
+            content: 'link';
+            color: rgba(128, 128, 128, 0.2);
+            font-weight: normal;
+            text-decoration: underline;
+        }
+
+        h2{
+            text-align: center;            
+            color: rgb(24, 143, 179);
+        }
+
+        .anotacoes {
+            font-family: 'Pinyon Script', serif;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Personalizando links</h1>   
+
+    <ul>
+        <li><a class="links" href="https://gustavoguanabara.github.io" target="_blank">Repositorio Github </a></li>
+        <li><a class="links" href="https://youtube.com/CursoemVideo" target="_blank">Canal Youtube (curso em video) </a></li>
+        <li><a class="links" href="https://cursoemvideo.com" target="_blank">Site Curso em Video </a></li>    
+    </ul>
+
+    <hr>
+    <h2>Anotacoes Importantes</h2>
+    <p class="anotacoes">
+        HashTag # = Id<br>
+        Ponto . = Classe<br>
+        : = Pseudo-classe<br>
+        :: Pseudo-elemento<br>
+        > = children (filho)    
+    </p>
+    <hr>    
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+body {
+    font-style: Arial, Helvetica, sans-serif;
+}
+
+div#mostrarAlgo > p {
+    display: none;
+}
+
+div#mostrarAlgo:hover{
+    color: black;
+}
+
+div#mostrarAlgo:hover > #textoUnico{
+    color: red;
+    display: block;  
+    text-decoration: underline;
+}
+
+#mostrarAlgo:hover > p {
+    display: block;  
+}

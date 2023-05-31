@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@font-face {    
+    font-family: Idroid;
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+/* ____Cabeçalho____ */
+header {
+    height: 200px;
+    background-image: linear-gradient(to bottom, #3ad881, #113a23);
+}
+
+.especificação-cabecalho {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0, 0.5); 
+    padding: 17px;
+}
+
+header a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header a:hover {
+    border-radius: 5px;
+    background-color: #00814C;
+}
+
+h1{
+    margin: 0px;
+}
+
+
+/* end____Cabeçalho____ */
+
+
+/*____Corpo____*/
+main {
+    background-color: white;
+    width: 820px;
+    margin: auto;
+    padding: 0px;
+}
+
+.trocarFonte {
+    font-family: Idroid, Arial, Helvetica, sans-serif;
+    color: #01693e;
+}
+
+main h2{
+    background-image: linear-gradient(to right, rgba(58, 216, 129, 0.7), rgba(58, 216, 129, 0.1));
+    padding: 3px;
+}
+
+.pictureImg{
+    text-align: center;
+}
+
+div#video {
+    text-align: center;
+    background-color: green;
+    padding: 10px;
+    margin: 0px 0px 20px 0px;
+}
+
+.conteúdo {
+    padding: 12px;
+}
+
+.conteudo{
+    padding: 0px;
+}
+
+#cabecalhoLinks{
+    background-color: #27834f;
+    margin: auto;
+    color: white; 
+    width: 750px;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#corpoLinks {
+    background-color: #84E1AD;
+    margin: auto;
+    width: 750px;
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#cabecalhoLinks > p, 
+#corpoLinks > p {
+    margin: 0px;
+}
+
+#linha{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.coluna-50 {
+    width: 50%;
+}
+/*end____Corpo____*/
+
+
+/*____cabecalho____*/
+footer {
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+}
+/*end____cabecalho____*/

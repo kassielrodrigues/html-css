@@ -1,0 +1,41 @@
+<!Doctype Html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Midias Html 5</title>
+</head>
+	<h1>Imagens Dinamicas</h1>
+	<p>Tente abrir esse site em vários dispositivos, ou aumente e diminua o tamanho da página do seu navegador</p>
+	<p>DICA: No Firefox presione Ctrl + Shift + M para ativar exibição em varios formatos ex: mobile, notebook, tv</p>
+<body>
+	<picture>
+		<source media="(max-width: 700px)" srcset="imagens/foto-p.png" type="image/png">
+		<source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+		<img src="imagens/foto-g.png" alt="imagem grande de demonstração">
+	</picture>
+	
+	<picture>		
+		<source media="(min-width: 1000px)" srcset="imagens/foto-g.png" type="image/png">
+		<source media="(min-width: 700px)" srcset="imagens/foto-m.png" type="image/png">		
+		<img src="imagens/foto-p.png" alt="imagem grande de demonstração">
+	</picture>
+<!-- 
+É fundamental adaptar o tamanho das imagens para diferentes tipos de dispositivos,
+um celular tem uma tela menor que um monitor, portanto ter imagens de tamanhos diferentes ajuda muito o úsuario 
+
+Tag picture oferce maior flexibilidade podendo trocar a imagem de acordo com o tamanho da tela
+Em vez de ter uma única imagem, pode ter varias imagens que serão usadas de acordo com tamanho da tela, 
+
+a tag possui os atributos source e img
+-->
+	<hr>
+	<h1>Áudios</h1>
+	<audio src="audio/Savior - Telecasted.mp3" controls> </audio><!--Adicionando multiplos parametros de audio mp3, ogg, wav-->	
+	
+	<audio preload="metadata" controls <!--autoplay-->>
+		<source src="audio/Savior - Telecasted.mp3"><!-- Poderia adicionar audios com formatos diferentes como uma forma de assegurar que o audio seja reproduzido -->
+	</audio>	
+	<p>Baixar a música, <a href="audio/Savior - Telecasted.mp3" download="audio/Savior - Telecasted.mp3">Clique aqui</a> para fazer o download</p>
+</body>
+</htlml>
